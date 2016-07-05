@@ -63,10 +63,10 @@ body{
 }
 .footer{
     width: 99%;
-    height: 30px;
+    height: 20px;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 30px 5px 30px 5px;
+    padding: 20px 5px 20px 5px;
     border: 2px solid white;
 
 }
@@ -74,12 +74,12 @@ body{
     display: inline;
     color: lightgray; 
     font-family: sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     
 }
 #design{
     margin: 0px 0px 0px 10px;   
 }
 #copyright{
-    margin: 0px 5px 0px 160px;
+    margin: 0px 5px 0px 320px;
 }
