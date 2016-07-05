@@ -4,7 +4,8 @@ body{
 }
 .header{
   background-color: gray;
-  border: 1px solid lightgray;
+  border:  solid lightgray;
+  border-width: 1px 0px;
   width: 100%;
   height: 60px;
   padding: 0px;
@@ -29,18 +30,25 @@ body{
 
 .navi a:hover{
     color: darkgrey;
-    background-color: black;
+    background-color: brown;
+    border:  solid black;
+    border-width: 1px 0px 1px 0px;
 }
+
 .mainBody{
     width: 100%;
     height: 1000px;
     margin: 0px;
     background-color: lightgray;
 }
+.imgEducation{
+    width: 100%;
+
+}
 #logo{
     width: 92%;
     height: 120px;
-    background-color: beige;
+    background-image: url(./image/simple.jpg);
     margin: 0px;
     padding: 50px 0px 50px 80px;
   
