@@ -10,25 +10,26 @@ body{
   padding: 0px;
  
 }
-
-
 .navi{
-     padding: 5px 0px 5px 500px;
+     padding: 5px 0px 5px 510px;
 }
 .navi a{
     color: white;
+    padding: 20px  10px 20px 10px;
+    
 }
 .navi a:link{
     text-decoration: none;
 }
 .navi li{
        display: inline;
-       padding: 8px;
+       padding: 0px;
        color: white;
 }
 
 .navi a:hover{
     color: darkgrey;
+    background-color: black;
 }
 .mainBody{
     width: 100%;
