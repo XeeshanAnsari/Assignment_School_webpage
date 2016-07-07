@@ -3,13 +3,13 @@ body{
     padding: 0px;
 }
 .header{
-  background-color: gray;
-  border:  solid lightgray;
-  border-width: 1px 0px 1px 0px;
-  border-color: orchid aliceblue lightgray aliceblue;
-  width: 100%;
+  background-image: url(./image/download.jpg);
+  border: solid white;
+  border-width: 0px 0px 1px 0px;
+  box-shadow: 0px 0px 30px #777777;
+  width: 99.2%;
   height: 60px;
-  padding: 0px;
+  padding: 5px;
  
 }
 .navi{
@@ -34,6 +34,7 @@ body{
     background-color: brown;
     border:  solid black;
     border-width: 1px 0px 1px 0px;
+    box-shadow: 0px 0px 20px brown;
 }
 
 .mainBody{
@@ -48,6 +49,82 @@ body{
     margin: 0px;
     background-image: url(./image/education_type.jpg);
 }
+.mainBodyCoursePage{
+    width: 100%;
+    height: 900px;
+    margin: 0px;
+    background-color: lightgray;
+}
+.slider{
+    width: 90%;
+    height: 86%;
+    background-color: lightgoldenrodyellow;
+    opacity: 1;
+    margin: 0%;
+    padding: 5%;
+}
+.slider h1 , p{
+    display: inline;
+    
+}
+.cit , .electronic , .electrical , .bio , .tv , .mobile{
+    width: 25%;
+    height: 25%;
+    border: solid ;
+    border-width: 5px 1px 0px 1px;
+    border-color: brown black black black;
+    padding: 1.5%;
+    margin: 3% 0% 3% 0%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.citimg , .electricalimg , .electronicimg , .bioimg{
+    width: 25%;
+    height: 30%;
+    position: absolute;
+  }
+  .citimg{
+      width: 20%;
+      height: 25%;
+      top: 50%;
+      left: 9.5%;
+  } 
+  .electronicimg{
+      top: 50%;
+      left: 37%;
+  }
+   .electricalimg{
+      top: 45%;
+      left: 67%;
+  }
+  .bioimg{
+      top: 117%;
+      left: 36%;
+  
+  }
+
+.electronic{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.electrical{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+}
+.bio{
+    position: absolute;
+    top: 140%;
+    left: 35%;
+}
+
+.slider p{
+    padding: 2%;
+}
+
+
 .imgEducation{
     width: 100%;
     height: 50%;
@@ -92,8 +169,9 @@ body{
     font-size: 1.5em;
     width: 100%;
     height: 30%;
-    
+    color: lightgray;
 }
+
 #name , #email , #massege{
   
     width: 70%;
@@ -108,7 +186,17 @@ body{
 #massege{
     height: 60%;
     border-radius: 10%;
-    margin: 2% 0% 2% 5%;
+    margin: 2% 0% 2% 4%;
+}
+#button{
+    width: 30%;
+    height: 15%;
+    margin: 4% 0% 4% 60%;
+    border: 2px outset gray;
+    border-radius: 5px;
+}
+#button:hover{
+    border: 2px outset lightgrey;
 }
 .footer{
     width: 99%;
@@ -127,8 +215,8 @@ body{
     
 }
 #design{
-    margin: 0px 0px 0px 5px;   
+    margin: 0px 0px 0px 2%;   
 }
 #copyright{
-    margin: 0px 5px 0px 48%;
+    margin: 0px 5px 0px 46%;
 }
