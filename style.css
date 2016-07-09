@@ -12,6 +12,7 @@ body{
   padding: 5px;
  
 }
+
 .navi{
      padding: 0.5% 0px 0.5% 50%;
 }
@@ -54,6 +55,44 @@ body{
     height: 900px;
     margin: 0px;
     background-color: lightgray;
+}
+.mainBodyScholar{
+    width: 90%;
+    height: 900px;
+    margin: 0px;
+    padding: 5% 5% 5% 5%;
+    background-color: lightgray;
+}
+.scholarA , .scholarB , .scholarC , .scholarD{
+    display: block;
+    width: 95%;
+    height: 15%;
+    background-color: lightgray;
+    margin: 5% 0% 5% 2%;
+    box-shadow: 0 0 100px #777777;
+    border: 2px inset gray;
+    border-radius: 50%;   
+}
+.scholarA b , .scholarB b , .scholarC b , .scholarD b{
+    font-size: 2em;
+}
+.scholarA p , .scholarB p , .scholarC p , .scholarD p{
+
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.scholarB p{
+    top:92%;
+}
+.scholarC p{
+    top: 121%;
+}
+.scholarD p{
+    top: 153%;
 }
 .slider{
     width: 90%;
@@ -99,7 +138,7 @@ body{
       left: 67%;
   }
   .bioimg{
-      top: 117%;
+      top: 112%;
       left: 36%;
   
   }
@@ -116,7 +155,7 @@ body{
 }
 .bio{
     position: absolute;
-    top: 140%;
+    top: 135%;
     left: 35%;
 }
 
@@ -150,10 +189,9 @@ body{
     font-family: cursive;
     font-size: 3em;
     text-shadow: 3px 3px rosybrown;
-    
-    
-
+   
 }
+
 .contectus{
     width: 40%;
     height: 50%;
@@ -172,8 +210,9 @@ body{
     color: lightgray;
 }
 
+
 #name , #email , #massege{
-  
+   
     width: 70%;
     height: 10%;
     border-radius: 6%; 
